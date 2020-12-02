@@ -1,0 +1,116 @@
+.footer-container {
+  background-color: #0a0a0a!important;
+  padding: 2rem 0 1rem 0!important;
+  display: flex!important;
+  flex-direction: column!important;
+  justify-content: center!important;
+  align-items: center!important;
+}
+
+.footer-investigation {
+  display: flex!important;
+  flex-direction: column!important;
+  justify-content: center!important;
+  align-items: center!important;
+  text-align: center!important;
+
+  margin-bottom: 1px!important;
+  padding: 1px!important;
+  color: #fff!important;
+}
+
+.footer-investigation > p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif!important;
+}
+
+.footer-investigation-heading {
+  margin-bottom: 4px!important;
+  font-size: 24px!important;
+}
+
+.footer-investigation-text {
+  margin-bottom: 10px!important;
+  font-size: 20px!important;
+}
+
+.footer-input {
+  padding: 8px 20px!important;
+  border-radius: 2px!important;
+  margin-right: 10px!important;
+  outline: none!important;
+  border: none!important;
+  font-size: 18px!important;
+  margin-bottom: 16px!important;
+  border: 1px solid #fff!important;
+}
+
+/* Social Icons */
+.social-icon-link {
+  color: #fff!important;
+  font-size: 24px!important;
+}
+
+.social-media {
+  max-width: 1000px!important;
+  width: 100%!important;
+}
+
+.social-media-wrap {
+  display: flex!important;
+  justify-content: space-between!important;
+  align-items: center!important;
+  width: 90%!important;
+  max-width: 1000px!important;
+  margin: 10px auto 0 auto!important;
+}
+
+.social-icons {
+  display: flex!important;
+  justify-content: space-between!important;
+  align-items: center!important;
+  width: 240px!important;
+}
+
+.social-logo {
+  color: #fff!important;
+  justify-self: start!important;
+  margin-left: 20px!important;
+  cursor: pointer!important;
+  text-decoration: none!important;
+  font-size: 2rem!important;
+  display: flex!important;
+  align-items: center!important;
+  margin-bottom: 16px!important;
+}
+
+.website-rights {
+  color: #fff;
+  margin-bottom: 16px!important;
+  padding-right: 20px!important;
+}
+
+@media screen and (max-width: 820px) {
+  .footer-links {
+    padding-top: 2rem!important;
+  }
+
+  .footer-input {
+    width: 100%!important;
+  }
+
+  .btn {
+    width: 100%!important;
+  }
+
+  .footer-link-wrapper {
+    flex-direction: column!important;
+  }
+
+  .social-media-wrap {
+    flex-direction: column!important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}

@@ -1,0 +1,12 @@
+.title {
+  
+    height: 100vh!important;
+    width: 100%!important;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center!important;
+    align-items: center!important;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2)!important;
+    object-fit: contain!important;
+  }
+  

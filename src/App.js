@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
 import './App.css';
-
+import Home from './components/pages/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+//import Methods from './components/pages/Methods';
+//import Solutions from './components/pages/Solutions';
+//import Resources from './components/pages/Resources';
+import Graphic from './components/Notices/Graphic';
+import Sensibility from './components/Notices/Sensibility';
+import Simplex from './components/Notices/Simplex';
+import Simp from "./components/metodos/todos";
+import Metodos from './components/metodos'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/graphic' component={Graphic} />
+          <Route path='/sensibility' component={Sensibility} />
+          <Route path='/simplex' component={Simplex} />
+          <Route exact path="/metodos" component={Metodos} />
+          <Route exact path="/metodos/todos" component={Simp} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
 export default App;
+
