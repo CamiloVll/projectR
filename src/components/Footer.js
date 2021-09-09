@@ -10,7 +10,7 @@ function Footer() {
           Proyecto Investigacion de Operaciones
         </p>
         <p className='footer-Investigation-text'>
-        Desarrollado por Cesar Camilo, Luis Chavelas, Jordi Hernandez, Arit Santamaria.
+        Desarrollado por Cesar Camilo, Luis Chavelas, Jordi Hernandez.
         </p>
         <div className='input-areas'>
         </div>
