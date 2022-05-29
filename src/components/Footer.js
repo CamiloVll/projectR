@@ -10,7 +10,7 @@ function Footer() {
           Proyecto Investigacion de Operaciones
         </p>
         <p className='footer-Investigation-text'>
-        Desarrollado por Cesar Camilo, Luis Chavelas, Jordi Hernandez, Arit Santamaria.
+        Desarrollado por Cesar Camilo.
         </p>
         <div className='input-areas'>
         </div>
@@ -22,7 +22,7 @@ function Footer() {
               AddBros
             </Link>
           </div>
-          <small class='website-rights'>AddBros Company 2020</small>
+          <small class='website-rights'>CESAR CAMILO 2022</small>
           <div class='social-icons'>
             <a
               class='social-icon-link facebook'
